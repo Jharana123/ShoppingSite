@@ -1,0 +1,143 @@
+.header {
+  color: white;
+  font-size: 50px;
+  background-color: #6495ed;
+  width: 100%;
+  display: flex;
+  /* text-transform: uppercase; */
+  padding-left: 40px;
+  font-style: italic;
+
+}
+.header2{
+ padding-left: 790px;
+}
+.nav {
+  color: black;
+  /* background-color: antiquewhite; */
+  padding: 30px;
+  align-items: center;
+  height: 600px;
+   background-color: teal;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+}
+.icon {
+  width: 40px;
+  height: 30px;
+  color: brown;
+}
+.div2 {
+ display: flex;
+  /* flex-flow: row wrap; */
+  width: 88%;
+  height: 400px;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  padding-top: 40px;
+  flex-direction: "row";
+  
+  /* flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: "row" */
+}
+.delete{
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+.card_style{
+    cursor: pointer;
+    transition: .3s;
+}
+  
+  .smalltrash{
+      display: none;
+  }
+  
+  .cart2{
+    font-size: 30px;
+  }
+  .card_style:hover{
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+  }
+  
+  .iteamsdetails{
+      max-width: 800px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+  }
+  .items_img{
+      flex: .4;
+  }
+  .items_img img{
+      width: 20rem;
+      border-radius: 5px;
+  }
+  
+  .details{
+      flex: .5;
+      
+      
+  };
+  
+  .rating{
+      background-color: green;
+  }
+  
+  @media (max-width:772px){
+      .iteamsdetails{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+  }
+  
+  @media (max-width:450px){
+      .smalltrash{
+          display: block;
+      }
+      .largetrash{
+          display:none;
+      }
+      .emptycart_img{
+          margin-right: 50px;
+      }
+      .smallclose{
+          display: none;
+      }
+  
+      /* individual iteams details */
+     
+      .items_img img{
+          width: 16rem;
+      }
+      
+  }
+.div3{
+   /* margin-top: 12px; */
+  width: 320px;
+  height: 280px;
+  justify-content: left;
+  /* padding-left: 12px; */
+  flex: 1;
+}
+.div4{
+ 
+   /* width: fit-content; */
+  /* margin-left: 1%; */
+  flex: 3;
+  color: antiquewhite;
+}
+.img {
+  width: 270px;
+  height: 250px;
+}

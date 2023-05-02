@@ -1,0 +1,84 @@
+.input {
+  width: 440px;
+  margin-top: 12px;
+}
+.input2 {
+  width: 440px;
+  margin-top: 7px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.icon{
+    width: 40px;
+    height: 30px;
+    color: brown;
+
+}
+.div {
+  padding: 20px;
+  width: 580px;
+  height: 850px;
+  margin: 32vh 50vh;
+  margin-top: 20px;
+  box-shadow: 2px 3px 3px 2.8px teal;
+  text-align: center; 
+  background-color:rgb(210, 179, 245);
+  /* background-color: teal; */
+  
+}
+.div4{
+  
+}
+.title{
+    color:teal;
+    font-size: 30px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    
+}
+.header2{
+ padding-left: 790px;
+}
+.header {
+  color: white;
+  font-size: 50px;
+  text-align: justify;
+  background-color: #6495ed;
+  width: 100%;
+   /* text-transform: uppercase; */
+  padding-left: 40px;
+  font-style: italic;
+
+}
+.icon3{
+  font-size: 18px;
+}
+.icon2{
+  font-size: 15px;
+}
+.nav {
+  color: black;
+  /* background-color: antiquewhite; */
+  padding: 30px;
+  align-items: center;
+  height: 850px;
+  background-color: teal;
+}
+.div2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: "row";
+}
+.img {
+  width: 270px;
+  height: 250px;
+}
